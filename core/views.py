@@ -18,7 +18,7 @@ class RadioViewSet(viewsets.ModelViewSet):
     def obtem_programacao_radio(request, radio):
         try:
             radio = Radio.objects.get(nome=radio)
-        except Snippet.DoesNotExist:
+        except radio.DoesNotExist:
             return HttpResponse(status=404)
 
         serializer_class = RadioSerializer(radio)
