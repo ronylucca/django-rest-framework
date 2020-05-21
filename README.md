@@ -16,10 +16,6 @@ previamente cadastrados no banco atraves do admin.
 Acessando http://127.0.0.1:8000/radios ou
           http://127.0.0.1:8000/programas, serão exibidos atraves do rest-framework o conteudo previamente cadastrado
           
-- Admin: usuario: ronylucca
-         senha: radioglobo
+- Admin: usuario: ******
+         senha: *****
 
-
-Qualquer duvida estarei a disposicao.
-
-Rony de Lucca
